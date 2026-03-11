@@ -1,0 +1,7 @@
+# ip-up-down-notifier dependencies
+#
+# The core application uses only Python 3 standard library modules
+# (socket, smtplib, json, logging, subprocess, platform) so this file
+# is only needed for running the test suite.
+
+pytest>=7.0

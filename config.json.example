@@ -1,0 +1,26 @@
+{
+  "check_interval": 60,
+  "hosts": [
+    "8.8.8.8",
+    {
+      "host": "1.1.1.1",
+      "port": 53,
+      "label": "Cloudflare DNS"
+    },
+    {
+      "host": "example.com",
+      "port": 80,
+      "label": "Example Website"
+    }
+  ],
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "use_tls": true,
+    "username": "your-email@gmail.com",
+    "password": "your-app-password",
+    "from": "your-email@gmail.com",
+    "to": "recipient@example.com"
+  }
+}
